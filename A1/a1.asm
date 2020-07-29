@@ -68,7 +68,7 @@ collatz:
     add nl, r22         ;add low byte of n again (3rd n added in n = 3n + 1)
     adc nh, r23         ;add high byte of n again
     add nl, templ       ;add 1 to n (for n = 3n + 1)
-    adc nh, temph       ;in the case of a carry         ;
+    adc nh, temph       ;in the case of a carry
     jmp count           ;go back to count to increment count and then check if n = 1 in compare
 
 checknl:
