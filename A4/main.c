@@ -77,10 +77,10 @@ unsigned int check_button(){
 //return value: none
 void change_timer(){
     if(curr_spd == '0'){
-        TIMSK4 = 0<<TOIE4;      //disable timer overflow interrupt while speed is '0'
+        TIMSK4 = 0<<TOIE4;  //disable timer overflow interrupt while speed is '0'
         return;
     }else{
-        TIMSK4 = 1<<TOIE4;      //otherwise enable interrupt
+        TIMSK4 = 1<<TOIE4;  //otherwise enable interrupt
     }
     //set countdown value for timer
     if(curr_spd == '1'){
