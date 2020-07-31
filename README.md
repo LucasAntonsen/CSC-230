@@ -9,3 +9,5 @@ This course covered the following topics:
 * Introduction to low-level programming with C and assembly languages  
 * Practical understanding of inner workings of a processor as related to rest of system, including input and output, memory management, and interrupt processing  
 * Introduction to issues of system performance evaluation and relationship of architecture to system software  
+
+Equipment used: Keyestudio MEGA 2560 R3 (Arduino MEGA 2560 R3 compatible), Keyestudio 1602 LCD Expansion Shield and 6 bit Blue LED Strip
