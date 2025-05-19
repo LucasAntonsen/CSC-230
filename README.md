@@ -1,6 +1,6 @@
 # CSC-230
 # Introduction to Computer Architecture
-See A3 and A4 for Collatz Sequence Calculator code in Assembly and C respectively.
+**See A3 and A4 for Collatz Sequence Calculator code in Assembly and C respectively.**
 
 Assignments from Computer Science 230 at the University of Victoria (Sept - Dec 2019) completed by Lucas Antonsen.
 
